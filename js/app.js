@@ -1,3 +1,4 @@
+//main js file	
 angular.module('App', [])
 .directive('markdown', function () {
   var converter = new Showdown.converter();
